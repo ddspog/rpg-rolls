@@ -17,14 +17,15 @@
       "title": "RPG Roll",
       "subtitle": "Calculate RPG dice rolls expressions",
       "description": "This calculates expressions for dice rolls on any RPG tabletop rules.",
-      "mode": "no-view"
+      "mode": "view"
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.48.9"
+    "@raycast/api": "^1.48.9",
+    "math-expression-evaluator": "^2.0.2"
   },
   "devDependencies": {
-    "@raycast/eslint-config": "1.0.5",
+    "@raycast/eslint-config": "^1.0.5",
     "@types/node": "18.8.3",
     "@types/react": "18.0.9",
     "eslint": "^7.32.0",
